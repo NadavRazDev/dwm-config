@@ -45,7 +45,11 @@ like this in your .xinitrc:
     exec dwm
 
 
-Configuration
--------------
+Configuration & Patching
+------------------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+To patch dwm`s files use the `patch -p1` command:<br>
+    patch -p1 /path/to/file<br>
+NOTE: Anything is already patched, just compile and that`s it.<br>
+Feel Free to change anything.
